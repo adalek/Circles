@@ -16,11 +16,12 @@ function draw(){
     a+=0.001
     let x2 = map(sin(e), 0, 1, 60, 400);
   //noLoop()
+  rotate (a*2)
    shape4(x1,x2,x3)
 }
 // l&s means long,short radius
  function shape4(x,l,s){
-  fill (217,20,112,100);
+  //fill (217,20,112,100);
  ellipse(0,x,s,l);
  //fill (4,191,191,200);
  ellipse(-x,0,l,s);
