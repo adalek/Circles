@@ -11,12 +11,14 @@ function draw(){
     noFill(0)
     let x1 = map(mouseX, 0, width, 0, 100);
     let x3= map(mouseY, 0, width, 0, 100);
-    let x2 = map(sin(a), 0, 1, 60, 400);
-    a+=0.01
     
+    let e=map(noise(a), 0, 1,0,10);
+    a+=0.001
+    let x2 = map(sin(e), 0, 1, 60, 400);
   //noLoop()
    shape4(x1,x2,x3)
 }
+// l&s means long,short radius
  function shape4(x,l,s){
   fill (217,20,112,100);
  ellipse(0,x,s,l);
@@ -26,6 +28,7 @@ function draw(){
  ellipse(0,-x,s,l);
  //fill (4,191,173,100);
  ellipse(x,0,l,s);
+ //4 circle
  ellipse(x,x,l);
  ellipse(-x,-x,l);
  ellipse (-x,x,l);
