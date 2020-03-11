@@ -18,7 +18,7 @@ function draw(){
    shape4(x1,x2,x3)
 }
  function shape4(x,l,s){
-  fill (217,20,112,150);
+  fill (217,20,112,100);
  ellipse(0,x,s,l);
  //fill (4,191,191,200);
  ellipse(-x,0,l,s);
@@ -26,5 +26,9 @@ function draw(){
  ellipse(0,-x,s,l);
  //fill (4,191,173,100);
  ellipse(x,0,l,s);
+ ellipse(x,x,l);
+ ellipse(-x,-x,l);
+ ellipse (-x,x,l);
+ ellipse(x,-x,l);
 
  }
