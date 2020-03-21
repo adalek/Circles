@@ -1,12 +1,9 @@
-# Circles
 
-# Name: 
-Xuwen Dong(Jessica)
+# Name: Xuwen Dong(Jessica)
 
-# Project title: 
-Circles
+# Project title: Circles
 
-#Codes:
+# Codes:
 I used sin(), map(),for loop, rotate, createColorPicker(), noise(),createSlider(), mouseX/Y, and a little CSS on the layout.
 I received some helps on "how to center the canvas", problem with github repository and rotate function.
 
