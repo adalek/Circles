@@ -8,6 +8,8 @@ function setup(){
     colorPicker1.position(width,height+100);
     colorPicker2 = createColorPicker('#eae9e9');
     colorPicker2.position(width+100,height+100);
+    colorPicker3 = createColorPicker('#eae9e9');
+    colorPicker3.position(width-100,height+100);
     slider=createSlider(1,50,1);
     slider.position(width+200,height+100)
 }
@@ -43,6 +45,7 @@ function draw(){
 // l&s means long,short radius
  function shape4(x,l,s){
  //4 circle
+ stroke(colorPicker3.color());
  ellipse(x,x,l);
 
  }
