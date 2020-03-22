@@ -1,7 +1,7 @@
 let a=0;
 var colors=[];
 function setup(){
-    createCanvas(500, 500);
+    createCanvas(480, 480);
     //create colorpicker to change fore/background color;
     //create slider to change strokeweight;
     colorPicker1 = createColorPicker('#000000');
@@ -15,7 +15,7 @@ function setup(){
 }
 
 function draw(){
-  translate(250,250);
+  translate(240,240);
     //background(0);
     background(colorPicker1.color());
     stroke (colorPicker2.color())
